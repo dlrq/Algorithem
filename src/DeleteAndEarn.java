@@ -1,6 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class DeleteAndEarn {
     public static void main(String[] args) {
@@ -31,7 +29,7 @@ public class DeleteAndEarn {
                 map.put(n, n);
             }
         }
-        int size = map.size();
+        
         if (map.size() == 1) {
             return map.get(map.firstKey());
         }

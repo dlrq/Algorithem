@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 public class JewelsAndStones {
 
     public static void main(String[] args) {
@@ -10,9 +7,6 @@ public class JewelsAndStones {
 
     public static void test(String J, String S) {
         int count = 0;
-        int sizeS = S.length();
-        int sizeJ = J.length();
-
         char[] c = new char[128];
 
         for (char c1 : J.toCharArray()) {
