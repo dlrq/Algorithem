@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 
 // @lc code=start
-class Solution {
+class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         if(nums.length == 1){
             return 1;

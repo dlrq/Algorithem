@@ -20,7 +20,7 @@
  *     }
  * }
  */
-class Solution {
+class ConvertSortedArrayToBinarySearchTree {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums == null){
             return null;
