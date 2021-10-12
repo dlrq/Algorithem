@@ -15,10 +15,9 @@ class LongestIncreasingSubsequence {
 
         int[] res = new int[nums.length];
         res[0] = Integer.MAX_VALUE;
-        int low = 0;
         int high = 1;
         for(int num : nums){
-            int pos = Arrays.binarySearch(res, low, high, num);
+            int pos = Arrays.binarySearch(res, 0, high, num);
             if(pos < 0){
                 pos = -pos - 1;
             }
